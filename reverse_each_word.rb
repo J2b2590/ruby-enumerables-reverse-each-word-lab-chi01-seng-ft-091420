@@ -9,7 +9,7 @@ def reverse_each_word(string)
   words = string.split(" ")
 
 
-  word_array << wods.reverse
+  word_array << words.reverse
   puts "#{word_array.join(" ")} this is word_array"
 
 
