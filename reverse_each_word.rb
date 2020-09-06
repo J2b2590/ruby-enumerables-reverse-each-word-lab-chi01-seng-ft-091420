@@ -8,7 +8,7 @@ def reverse_each_word(string)
 words = string.split(" ")
 
 words.each do |el|
-  puts el
+  puts "#{el} this is el"
 end
 
 end
