@@ -13,5 +13,5 @@ words.each do |el|
   word_array << el.reverse
 
   end
-  puts word_array
+  puts word_array.join(" ")
 end
