@@ -8,7 +8,7 @@ def reverse_each_word(string)
   word_array = []
   words = string.split(" ")
 
-words.each do |el|
+words.collect do |el|
   "#{el} this is el"
   word_array << el.reverse
 
