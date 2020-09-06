@@ -8,4 +8,5 @@ def reverse_each_word(string)
   string.each do |el|
     words << el.split(" ")
   end
+  puts words
 end
