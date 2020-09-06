@@ -9,7 +9,7 @@ def reverse_each_word(string)
   words = string.split(" ")
 
 words.each do |el|
-  puts "#{el} this is el"
+  "#{el} this is el"
   word_array << el.reverse
 end
 puts word_array
