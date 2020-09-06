@@ -14,6 +14,6 @@ words.each do |el|
 
 end
 
-puts "#{word_array.join} this is word_array"
+puts "#{word_array} this is word_array"
 
 end
