@@ -12,6 +12,5 @@ words.each do |el|
   puts "#{el} this is el"
   word_array << el.reverse
 end
-puts word_array.join
-
+puts word_array
 end
