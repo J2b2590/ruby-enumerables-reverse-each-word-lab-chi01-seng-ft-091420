@@ -4,5 +4,11 @@
 
 
 def reverse_each_word(string)
-string.split(" ")
+  words = " "
+words = string.split(" ")
+
+words.each do |el|
+  puts el
+end
+
 end
