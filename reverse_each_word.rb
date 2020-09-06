@@ -11,9 +11,6 @@ def reverse_each_word(string)
 words.each do |el|
   "#{el} this is el"
   word_array << el.reverse
-  puts "#{word_array.join(" ")} this is word_array"
+ word_array
 end
-
-
-
 end
