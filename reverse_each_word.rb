@@ -9,7 +9,7 @@ words = string.split(" ")
 
 words.each do |el|
   puts "#{el} this is el"
-  el.reversed
+  el.reverse
 end
 
 end
